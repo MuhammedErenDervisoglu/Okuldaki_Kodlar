@@ -1,0 +1,790 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Okul
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /*string ad,soyad,urun_adi;
+            float urun_fiyati, urun_adeti, toplam;
+            string giris;
+
+            Console.WriteLine("Nasıl Kullanılır öğrenmek için 'E'ye bas:");
+            giris=Console.ReadLine();
+
+            if (giris=="e" || giris=="E")
+            {
+                string cikis;
+                Console.WriteLine("Fiyat girer iken fiyat ve küsürat arasına virgül ',' koyacaksınız. Örnek:1,90  2,15");
+                Console.WriteLine("Çıkmak İçin 'e' tuşuna basın:");
+                cikis = Console.ReadLine();
+
+               if(cikis=="e" || cikis=="E")
+               {
+                    Console.Clear();
+                    goto baslangic;
+               }
+            }
+
+            baslangic:
+            Console.Write("Hoşgeldiniz Lütfen Adınızı Giriniz:");
+            ad = Console.ReadLine();
+            Console.Write("Lütfen Soyadınızı Giriniz:");
+            soyad = Console.ReadLine();
+            Console.Write("Lütfen İstediğiniz Ürünü Girin:");
+            urun_adi = Console.ReadLine();
+            Console.Write("Ürünün Fiyatını Girin:");
+            urun_fiyati = float.Parse(Console.ReadLine());
+            Console.Write("Kaç adet istiyorsunuz:");
+            urun_adeti = float.Parse(Console.ReadLine());
+            toplam = urun_adeti * urun_fiyati;
+            Console.WriteLine("");
+            Console.WriteLine("Ad-Soyad: {0} {1}",ad,soyad);
+            Console.WriteLine("Ürün Adı:{0}",urun_adi);
+            Console.WriteLine("Ürün Fiyatı:{0}TL",urun_fiyati);
+            Console.WriteLine("Ürün Adeti:{0}",urun_adeti);
+            Console.WriteLine("Toplam Fiyat:{0}TL",toplam);*/
+
+
+            //Yaşınızı Hesaplayan Program
+
+            /*int dgyil, yil;
+             Console.Write("Doğum yılınızı giriniz :");
+             dgyil = int.Parse(Console.ReadLine());
+             Console.Write("Şu an hangi yıldayız ? :");
+             yil = int.Parse(Console.ReadLine());
+             int yas = yil - dgyil;
+             Console.WriteLine("Eğer Doğum Gününüzü Geçtiyseniz:{0}",yas);
+             Console.WriteLine("Eğer geçmediyseniz:{0}",yas-1);*/
+
+            //4 İşlem Yapan Program
+
+            /*tekrar:
+                string tek;
+                float say1, say2, toplam, fark, carpim, bolum;
+                Console.Write("Birinci sayıyı giriniz:");
+                say1=float.Parse(Console.ReadLine());
+                Console.Write("İkinci sayıyı giriniz:");
+                say2 = float.Parse(Console.ReadLine());
+                Console.WriteLine("");
+                toplam = say1 + say2;
+                fark = say1 - say2;
+                carpim = say1 * say2;
+                bolum = say1 / say2;
+
+                Console.WriteLine("Sayıların Toplamı:{0}",toplam);
+                Console.WriteLine("Sayıların Farkı:{0}",fark);
+                Console.WriteLine("Sayıların Çarpımı:{0}",carpim);
+                Console.WriteLine("Sayıların Bölümü:{0}",bolum+"\n");
+
+                Console.Write("Tekrar başlatmak için 't' tuşuna basınız:");
+                tek=Console.ReadLine();
+                if (tek=="t")
+                {
+                    goto tekrar;
+                }
+                else
+                {
+                    Console.Write("Çıkmak İçin Rastgele Bir Tuşa Basınız");
+                }*/
+
+
+
+            //Üçgenin alanını bulan program
+
+            /*double a, h, alan;
+
+            Console.Write("Yüksekliği Girin=");
+            h = double.Parse(Console.ReadLine());
+            Console.Write("Uzunluğu Girin=");
+            a = double.Parse(Console.ReadLine());
+            alan = a * h;
+            alan = alan / 2;
+
+            Console.Write("Alan={0}", alan);*/
+
+            // Ortalama Hesaplayan Program
+
+            /*double sinav1, sinav2, performans_notu;
+            string adsoyad;
+            double ortalama;
+
+            Console.Write("Adınızı Soyadınızı Giriniz:");
+            adsoyad = Console.ReadLine();
+            Console.Write("1.Sınav Notunuzu Giriniz:");
+            sinav1 = double.Parse(Console.ReadLine());
+            Console.Write("2.Sınav Notunuzu Giriniz:");
+            sinav2 = double.Parse(Console.ReadLine());
+            Console.Write("Performans Notunuzu Giriniz:");
+            performans_notu = double.Parse(Console.ReadLine());
+            
+
+            ortalama = (sinav1 + sinav2 + performans_notu) / 3;
+
+            Console.Write(adsoyad+" Ortalamanız={0}",ortalama);*/
+
+            /*double EAA = 0.5456939588;
+            float EAAA = 0.5456939588f;
+            decimal EAAAA = 0.5456939588m;
+            Console.WriteLine(EAA);
+            Console.WriteLine(EAAA);
+            Console.WriteLine(EAAAA);*/
+
+            /*const double pi = 3.14;
+            Console.WriteLine(pi);*/
+
+            /* decimal/float a = 22f, b = 7f, pi;
+            pi = a / b;
+            Console.WriteLine(pi); */
+
+            /* int sayi = 6;
+             bool kontrol;
+
+             kontrol = sayi <= 7;
+             Console.WriteLine(kontrol);*/
+
+            //ASCII UYGULAMASI
+
+            /*char harf;
+            Console.Write("Bir Karakter Giriniz:");
+            harf= Convert.ToChar(Console.ReadLine());
+            Console.WriteLine("Girdiğiniz Harf: " + harf);
+            Console.WriteLine("Sayı Değeri: "+Convert.ToInt16(harf));*/
+
+            /*baslangic:
+            int sayi;
+
+            Console.Write("sayı gir:");
+            sayi = int.Parse(Console.ReadLine());
+
+            if (sayi > 5)
+            {
+                Console.WriteLine("Sayı 5 den büyük");
+            }
+
+            else
+            {
+                Console.Write("Sayı 5 den küçük veya eşittir");
+            }
+
+            Console.WriteLine("Yeniden başlatma için enter'a bas");
+            Console.Read();
+            goto baslangic;
+            Console.Read();*/
+
+
+            /*basla:
+            Console.Clear();
+            double sinav1, sinav2, ort;
+
+            Console.Write("Birinci Sınav Notunuzu Giriniz=");
+            sinav1 = double.Parse(Console.ReadLine());
+            Console.Write("İkinci Sınav Notunuzu Giriniz=");
+            sinav2 = double.Parse(Console.ReadLine());
+            if (sinav1 < 0 || sinav1>100)
+            {
+                Console.WriteLine("Hatalı Giriş. Sayı 0'dan küçük veya 100'den büyük olamaz.");
+                Console.Write("Yeniden başlatmak için enter tuşuna basınız");
+                Console.ReadKey();
+                goto basla;
+                
+            }
+            ort = (sinav1 + sinav2) / 2;
+
+            Console.WriteLine("Ortalamanız={0}",ort);
+
+            if (ort>=50 && ort<101)
+            {
+                Console.Write("Geçtiniz");
+            }
+
+            else if (ort<=49 && ort>=0)
+            {
+                Console.Write("Kaldınız");
+            }*/
+
+            //Girilen sayının çift basamaklı veya tek basamaklı olmasını bulan program
+
+            /*int sayi;
+
+            Console.Write("Sayı Girin:");
+            sayi = int.Parse(Console.ReadLine());
+            if (sayi>9 && sayi< 100 || sayi<-9 && sayi>-100)
+            {
+                Console.WriteLine("Sayı 2 basamaklıdır");
+            }
+
+            else
+            {
+                Console.WriteLine("Sayı 2 basamaklı değildir");
+            }*/
+
+            /*string cevap;
+
+            Console.Write("Haftalık çizelge bitti mi ? => ");
+            cevap = Console.ReadLine();
+
+            if (cevap=="Evet" || cevap=="evet" || cevap=="EVET")
+            {
+                Console.WriteLine("Çizelgeyi yeniden başlatın.");
+            }
+            
+            else if (cevap=="hayır"||cevap=="Hayır" || cevap=="HAYIR")
+            {
+                Console.WriteLine("Çizelgenin tarihinden devam edin.");
+            }
+            
+            else
+            {
+                Console.WriteLine("Yanlış Giriş Yaptınız");
+            }*/
+
+            /*int sayi;
+
+            Console.Write("Sayı gir:");
+            sayi = int.Parse(Console.ReadLine());
+
+            if (sayi%3==0 && sayi%4==0)
+            {
+                Console.WriteLine("3'e ve 4'e tam bölünüyor");
+            }
+            else
+            {
+
+                Console.WriteLine("3'e ve 4'e tam bölünemiyor");
+                Console.WriteLine("Sayı 3'e bölününce kalan =" + sayi % 3);
+                Console.WriteLine("Sayı 4'e bölününce kalan =" + sayi % 4);
+            }*/
+
+            /*int sayi1, sayi2;
+
+            Console.Write("1.Sayıyı Giriniz: ");
+            sayi1 = int.Parse(Console.ReadLine());
+            Console.Write("2.Sayıyı Giriniz: ");
+            sayi2 = int.Parse(Console.ReadLine());
+
+            if (sayi1>sayi2)
+            {
+                Console.WriteLine("1.Sayı 2.Sayıdan Büyüktür");
+            }
+
+            else if (sayi1==sayi2)
+            {
+                Console.WriteLine("1.Sayı 2.Sayıya Eşittir");
+            }
+
+            else
+            {
+                Console.WriteLine("2.Sayı 1.Sayıdan Büyüktür");
+            }*/
+
+            //Hesap Makinesi
+
+            /* double sayi1, sayi2, sonuc;
+             int secim;
+
+             Console.Write("Sayı 1'i giriniz: ");
+             sayi1 = double.Parse(Console.ReadLine());
+             Console.Write("Sayı 2'yi giriniz: ");
+             sayi2 = double.Parse(Console.ReadLine());
+
+             Console.Clear();
+
+             Console.Write("Seçim Yapınız \n");
+             Console.Write("****************** \n");
+             Console.Write("1.Toplama \n");
+             Console.Write("2.Çıkarma \n");
+             Console.Write("3.Çarpma \n");
+             Console.WriteLine("4.Bölme \n");
+
+             Console.Write("Seçim Yapınız : ");
+             secim = int.Parse(Console.ReadLine());
+             Console.Clear();
+
+             if (secim == 1)
+             {
+                 Console.WriteLine("1.Sayı={0} 2.Sayı={1}", sayi1, sayi2);
+                 sonuc = sayi1 + sayi2;
+                 Console.Write("Toplamı= {0}", sonuc);
+             }
+             else if (secim == 2)
+             {
+                 Console.WriteLine("1.Sayı={0} 2.Sayı={1}", sayi1, sayi2);
+                 sonuc = sayi1 - sayi2;
+                 Console.Write("Farkı= {0}", sonuc);
+             }
+             else if (secim == 3)
+             {
+                 Console.WriteLine("1.Sayı={0} 2.Sayı={1}", sayi1, sayi2);
+                 sonuc = sayi1 * sayi1;
+                 Console.Write("Çarpımı= {0}", sonuc);
+             }
+             else
+             {
+                 Console.WriteLine("1.Sayı={0} 2.Sayı={1}", sayi1, sayi2);
+                 sonuc = sayi1 / sayi2;
+                 Console.Write("Bölümü= {0}", sonuc);
+             }
+
+
+             Console.ReadKey();*/
+
+            /*double sayi;
+            Console.Write("Bir sayı giriniz:");
+            sayi = double.Parse(Console.ReadLine());
+            if (sayi < 0)
+            {
+                Console.WriteLine("Girilen Sayı Negatiftir.");
+            }
+
+            else if (sayi>=0)
+            {
+                Console.WriteLine("Girilen Sayı Pozitiftir.");
+            }
+            Console.Read();*/
+
+            /*double s1, s2, sozlu,ort;
+            Console.Write("Birinci Sınav Notunuzu Giriniz:");
+            s1 = double.Parse(Console.ReadLine());
+            Console.Write("İkinci Sınav Notunuzu Giriniz:");
+            s2 = double.Parse(Console.ReadLine());
+            Console.Write("Sözlü Notunuzu Giriniz:");
+            sozlu = double.Parse(Console.ReadLine());
+            ort = (s1 + s2 + sozlu) / 3;
+            if (ort < 50)
+            {
+                Console.WriteLine("Dersten {0} notuyla kaldınız.", ort);
+            }
+               
+            else if (ort>=50)
+            {
+                Console.WriteLine("Dersten {0} notuyla geçtiniz.",ort);
+            }
+            Console.Read();*/
+
+            /*double kur, dolar,carpim;
+            Console.Write("Dolar-TL Kurunu Giriniz:");
+            kur = double.Parse(Console.ReadLine());
+            Console.Write("Dolar Miktarını Giriniz:");
+            dolar = double.Parse(Console.ReadLine());
+            carpim = kur * dolar;
+            if (carpim>=1000)
+            {
+                Console.WriteLine("{0}$ = {1} 1000 TL'nin üstünde veya eşittir.",dolar,carpim);
+            }
+            else
+            {
+                Console.WriteLine("{0}$ = {1} 1000 TL'nin altında veya eşittir.",dolar,carpim);
+            }
+            Console.Read();*/
+
+            /*double kare, uzunKenar, kısaKenar;
+            Console.Write("Karenin kenar uzunluğunu giriniz:");
+            kare = double.Parse(Console.ReadLine());
+            Console.Write("Dikdörtgenin uzun kenarını giriniz:");
+            uzunKenar = double.Parse(Console.ReadLine());
+            Console.Write("Dikdörtgenin kısa kenarını giriniz:");
+            kısaKenar = double.Parse(Console.ReadLine());
+            if ((kare*4)<(uzunKenar*kısaKenar))
+            {
+                Console.WriteLine("Dikdörtgenin alanı daha büyüktür.");
+            }
+            else if ((kare * 4) > (uzunKenar * kısaKenar))
+            {
+                Console.WriteLine("Karenin alanı daha büyüktür.");
+            }
+            else if ((kare * 4) == (uzunKenar * kısaKenar))
+            {
+                Console.WriteLine("Birbirine eşittir.");
+            }
+
+            Console.ReadKey();*/
+
+            /*double sayi1;
+            Console.Write("Sayıyı girin:");
+            sayi1 = double.Parse(Console.ReadLine());
+
+            if (sayi1 % 3 == 0 && sayi1 % 5 == 0)
+            {
+                Console.Write(sayi1 + " sayısı 3'e ve 5'e kalansız bölünüyor.");
+            }
+            else
+            {
+                Console.Write(sayi1 + " sayısı 3'e {0} 5'e {1} kalanlı bölünüyor.", (sayi1 % 3), (sayi1 % 5));
+            }*/
+
+            /*string k_adi, parola;
+            int sayac = 0;
+            char reset;
+        start:
+        {
+            Console.Write("Write your username:");
+            k_adi = Console.ReadLine();
+            Console.Write("Write your password:");
+            parola = Console.ReadLine();
+
+            if (k_adi == "admin" && parola == "123abc")
+            {
+                Console.WriteLine("Access Accepted");
+            }
+
+            else
+            {
+                sayac++;
+                Console.WriteLine("Access Denied");
+                if (sayac == 3)
+                {
+                    Console.WriteLine("by .d");
+                    goto cikis;
+
+                }
+                Console.Write("Push 'r' button and try again:");
+                reset = char.Parse(Console.ReadLine());
+
+                if (reset == 'r')
+                { 
+                    Console.Clear();
+                    goto start;
+                }
+            }
+
+        }
+        cikis:
+        Console.WriteLine("Press Enter");
+        Console.Read();*/
+
+            //Askere gidebilir/gidemez
+            /*int yas;
+            string cinsiyet;
+            Console.Write("Yaşını gir len:");
+            yas = int.Parse(Console.ReadLine());
+            Console.Write("Cinsiyetinizi giriniz(E/K):");
+            cinsiyet = Console.ReadLine(); 
+            if (cinsiyet == "e" || cinsiyet == "E" && yas >= 20) 
+            { 
+                Console.WriteLine("Askere Gidebilir.");
+            } 
+            else
+            { 
+                Console.WriteLine("Askere Gidemez.");
+            }
+            Console.Read();*/
+
+            /*double s1, s2, s3, perf, ort, beslikSistem; // Değişkenleri tanıtıyoruz.
+
+            Console.Write("Birinci Sınav Notunuzu Giriniz:"); // Sınav notlarını girdiriyoruz.
+            s1 = Convert.ToDouble(Console.ReadLine()); // Değişkenleri okutuyoruz.
+            Console.Write("İkinci Sınav Notunuzu Giriniz:"); // Sınav notlarını girdiriyoruz.
+            s2 = Convert.ToDouble(Console.ReadLine()); // Değişkenleri okutuyoruz.
+            Console.Write("Üçüncü Sınav Notunuzu Giriniz:"); // Sınav notlarını girdiriyoruz.
+            s3 = Convert.ToDouble(Console.ReadLine()); // Değişkenleri okutuyoruz.
+            Console.Write("Performans Notunuzu Giriniz:"); // Sınav notlarını girdiriyoruz.
+            perf = Convert.ToDouble(Console.ReadLine()); // Değişkenleri okutuyoruz.
+
+            ort = (s1 + s2 + s3 + perf) / 4; //Ortalamayı hesaplıyoruz.
+            
+            if (ort < 50 && ort >= 0) //Eğer ortalama 50'den küçükse ve 0'dan büyükse veya 0'a eşitse yapacaklarını yazıyoruz.
+            {
+                beslikSistem = 1; //Beşlik sistemde 1'e eşit olduğu için "beslikSistem" değişkenini 1 yapıyoruz.
+                Console.Write("Ortalamanız: {0} || Beşlik sistemde notunuz: {1}", ort, beslikSistem);
+                //Ortalamayı ve beşlik sistemdeki karşılığını yazdırıyoruz.
+            }
+
+            else if (ort < 55 && ort >= 50)
+            {
+                beslikSistem = 2;
+                Console.Write("Ortalamanız: {0} || Beşlik sistemde notunuz: {1}", ort, beslikSistem);
+            }
+            else if (ort < 70 && ort >= 55)
+            {
+                beslikSistem = 3;
+                Console.Write("Ortalamanız: {0} || Beşlik sistemde notunuz: {1}", ort, beslikSistem);
+            }
+
+            else if (ort < 85 && ort >= 70)
+            {
+                beslikSistem = 4;
+                Console.Write("Ortalamanız: {0} || Beşlik sistemde notunuz: {1}", ort, beslikSistem);
+            }
+
+            else if (ort <= 100 && ort >= 85)
+            {
+                beslikSistem = 5;
+                Console.Write("Ortalamanız: {0} || Beşlik sistemde notunuz: {1}", ort, beslikSistem);
+            }
+
+            else
+            {
+                //Eğer notların ortalaması 0'dan küçük veya 100'den büyük olursa hatalı giriş yaptığını belirtiyoruz.
+                Console.Write("Yanlış giriş yaptınız. Lütfen notlarınızı kontrol edin.");
+            }
+
+            Console.ReadKey();*/
+
+            /*double a, b, c;
+            Console.Write("Birinci kenarı giriniz:");
+            a = double.Parse(Console.ReadLine());
+            Console.Write("İkinci kenarı giriniz:");
+            b = double.Parse(Console.ReadLine());
+            Console.Write("Üçüncü kenarı giriniz:");
+            c = double.Parse(Console.ReadLine());
+
+            if (a==b && b==c)
+            {
+                Console.Write("Eşkenar Üçgen");
+            }
+
+            else if (a != b && b != c && a!=c)
+            {
+                Console.Write("Çeşitkenar Üçgen");
+            }
+
+            else
+            {
+                Console.Write("İkizkenar Üçgen");
+            }
+            */
+
+            /*double s1, s2, s3;
+
+            Console.WriteLine("**********************************");
+            Console.WriteLine("* Birbirinden farklı üç sayı giriniz. *");
+            Console.WriteLine("**********************************");
+
+            Console.Write("Birinci Sayıyı Giriniz:");
+            s1 = double.Parse(Console.ReadLine());
+            Console.Write("İkinci Sayıyı Giriniz:");
+            s2 = double.Parse(Console.ReadLine());
+            Console.Write("Üçüncü Sayıyı Giriniz:");
+            s3 = double.Parse(Console.ReadLine());
+
+            if (s1>s2 && s1>s3)
+            {
+                Console.Write("En büyük sayı:{0}",s1);
+            }
+
+            else if (s2>s1 && s2>s3)
+            {
+                Console.Write("En büyük sayı:{0}",s2);
+            }
+
+            else
+            {
+                Console.Write("En büyük sayı:{0}",s3);
+            }*/
+
+
+            /*string k_adi, parola;
+        
+            Console.Write("Write your username:");
+            k_adi = Console.ReadLine();
+            Console.Write("Write your password:");
+            parola = Console.ReadLine();
+
+            if (k_adi == "admin")
+            {
+                    if (parola=="123abc")
+                    {
+                        Console.WriteLine("Access Accepted");
+                    }
+
+                    else
+                    {
+                        Console.WriteLine("Password is wrong");
+                    }
+            }
+
+            else if (k_adi!="admin" && parola!="123abc")
+            {
+                Console.WriteLine("Username and password are wrong");
+                
+            }
+
+            else
+            {
+                Console.WriteLine("Username is wrong");
+            }*/
+
+            /*byte ay;
+
+            Console.Write("Sayı giriniz:");
+            ay = byte.Parse(Console.ReadLine());
+            Console.Clear();
+
+            switch (ay)
+            {
+                case 1:
+                    Console.WriteLine(ay+". Ay Ocak");
+                    break;
+                case 2:
+                    Console.WriteLine(ay+". Ay Şubat");
+                    break;
+                case 3:
+                    Console.WriteLine(ay + ". Ay Mart");
+                    break;
+                case 4:
+                    Console.WriteLine(ay + ". Ay Nisan");
+                    break;
+                case 5:
+                    Console.WriteLine(ay + ". Ay Mayıs");
+                    break;
+                case 6:
+                    Console.WriteLine(ay + ". Ay Haziran");
+                    break;
+                case 7:
+                    Console.WriteLine(ay + ". Ay Temmuz");
+                    break;
+                case 8:
+                    Console.WriteLine(ay + ". Ay Ağustos");
+                    break;
+                case 9:
+                    Console.WriteLine(ay + ". Ay Eylül");
+                    break;
+                case 10:
+                    Console.WriteLine(ay + ". Ay Ekim");
+                    break;
+                case 11:
+                    Console.WriteLine(ay + ". Ay Kasım");
+                    break;
+                case 12:
+                    Console.WriteLine(ay + ". Ay Aralık");
+                    break;
+                default:
+                    Console.WriteLine("Girilen sayı 1'den küçük, 12'den büyük olamaz.");
+                    break;
+            }*/
+
+            /*char gun;
+
+            Console.Write("Bir sayı giriniz:");
+            gun = char.Parse(Console.ReadLine());
+
+            Console.Clear();
+
+            switch (gun)
+            {
+                case '1':
+                    Console.WriteLine("Pazartesi");
+                    break;
+                case '2':
+                    Console.WriteLine("Salı");
+                    break;
+                case '3':
+                    Console.WriteLine("Çarşamba");
+                    break;
+                case '4':
+                    Console.WriteLine("Perşembe");
+                    break;
+                case '5':
+                    Console.WriteLine("Cuma");
+                    break;
+                case '6':
+                    Console.WriteLine("Cumartesi");
+                    break;
+                case '7':
+                    Console.WriteLine("Pazar");
+                    break;
+                default:
+                    Console.WriteLine("med was here");
+                    break;
+                    
+            }*/
+
+            /*Console.WriteLine("*******************************************");
+            Console.WriteLine("1.Dikdörtgenin alanını hesapla.");
+            Console.WriteLine("2.Karenin alanını hesapla.");
+            Console.WriteLine("3.Dairenin alanını hesapla.");
+            Console.WriteLine("4.Üçgenin alanını hesapla.");
+            Console.WriteLine("*******************************************");
+            Console.Write("Yukarıdan yapmak istediğiniz işlemi seçiniz:");
+            char secim = char.Parse(Console.ReadLine());
+
+            const double pi = 3.14;
+
+                switch (secim)
+                {
+                    case '1':
+                        Console.Write("Uzun Kenarı Giriniz=");
+                        double uKenar = double.Parse(Console.ReadLine());
+                        Console.Write("Kısa Kenarı Giriniz=");
+                        double kKenar = double.Parse(Console.ReadLine());
+                        Console.WriteLine("Dikdörtgenin Alanı=" + (uKenar * kKenar));
+                        break;
+                    case '2':
+                        Console.Write("Bir Kenarı Giriniz:");
+                        double kenar = double.Parse(Console.ReadLine());
+                        Console.WriteLine("Karenin Alanı=" + (kenar * kenar));
+                        break;
+                    case '3':
+                        Console.Write("Yarıçapı Giriniz=");
+                        double yariCap = double.Parse(Console.ReadLine());
+                        Console.WriteLine("Dairenin Alanı=" + (pi * (yariCap*yariCap)));
+                        break;
+                    case '4':
+                        Console.Write("Üçgenin Yüksekliğini Giriniz=");
+                        double h = double.Parse(Console.ReadLine());
+                        Console.Write("Üçgenin Taban Uzunluğunu Giriniz=");
+                        double taban = double.Parse(Console.ReadLine());
+                        Console.Write("Üçgenin Alanı="+(taban*h)/2);
+                        break;
+                    default:
+                        Console.WriteLine("yanlış seçim yaptınız");
+                    break;
+                }*/
+
+            /*Console.WriteLine("T=Toplama");
+            Console.WriteLine("C=Çıkarma");
+            Console.WriteLine("R=Çarpma");
+            Console.WriteLine("B=Bölme");
+            Console.Write("\nYapmak istediğiniz işlemi seçiniz:");
+            char secim = char.Parse(Console.ReadLine());
+            double sayi1,sayi2,sonuc;
+
+            switch (secim)
+            {
+                case 'T':
+                    Console.Write("Birinci Sayıyı Giriniz:");
+                    sayi1 = double.Parse(Console.ReadLine());
+                    Console.Write("İkinci Sayıyı Giriniz:");
+                    sayi2 = double.Parse(Console.ReadLine());
+                    sonuc = sayi1 + sayi2;
+                    Console.WriteLine("{0}+{1}={2}",sayi1,sayi2,sonuc);
+                    break;
+                case 'C':
+                    Console.Write("Birinci Sayıyı Giriniz:");
+                    sayi1 = double.Parse(Console.ReadLine());
+                    Console.Write("İkinci Sayıyı Giriniz:");
+                    sayi2 = double.Parse(Console.ReadLine());
+                    sonuc = sayi1 - sayi2;
+                    Console.WriteLine("{0}+{1}={2}", sayi1, sayi2, sonuc);
+                    break;
+                case 'R':
+                    Console.Write("Birinci Sayıyı Giriniz:");
+                    sayi1 = double.Parse(Console.ReadLine());
+                    Console.Write("İkinci Sayıyı Giriniz:");
+                    sayi2 = double.Parse(Console.ReadLine());
+                    sonuc = sayi1 * sayi2;
+                    Console.WriteLine("{0}+{1}={2}", sayi1, sayi2, sonuc);
+                    break;
+                case 'B':
+                    Console.Write("Birinci Sayıyı Giriniz:");
+                    sayi1 = double.Parse(Console.ReadLine());
+                    Console.Write("İkinci Sayıyı Giriniz:");
+                    sayi2 = double.Parse(Console.ReadLine());
+                    sonuc = sayi1 / sayi2;
+                    Console.WriteLine("{0}+{1}={2}", sayi1, sayi2, sonuc);
+                    break;
+                default:
+                    Console.WriteLine("Hatalı Seçim Yaptınız.");
+                    break;
+            }
+
+            Console.Read();*/
+        }
+    }
+}
